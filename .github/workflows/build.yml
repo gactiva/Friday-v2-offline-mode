@@ -1,4 +1,3 @@
-```yaml
 name: Build Friday Android APK
 
 on:
@@ -65,4 +64,3 @@ jobs:
           name: Friday-offline-online-apk
           path: app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
-```
